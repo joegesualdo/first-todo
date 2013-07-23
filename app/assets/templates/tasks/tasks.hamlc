@@ -1,1 +1,5 @@
 %h1 This is the tasks template
+%ul.taskList
+
+%input{id: "newTask", placeholder: "Enter task here.."}
+%div{id: "submitTask"} Submit

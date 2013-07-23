@@ -1,1 +1,3 @@
-%span= @title
+%span.editable= @title
+%span.toggleDone √
+%span.deleteTask X
