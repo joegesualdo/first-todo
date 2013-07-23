@@ -18,6 +18,12 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  
+  gem 'backbone-on-rails'
+  gem 'haml_coffee_assets'
+  gem "haml-rails"
+  gem 'bootstrap-sass', '~> 2.3.2.1'
+
 end
 
 gem 'jquery-rails'
