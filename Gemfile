@@ -21,7 +21,7 @@ group :assets do
   
   gem 'backbone-on-rails'
   gem 'haml_coffee_assets'
-  gem "haml-rails"
+  gem 'haml-rails'
   gem 'bootstrap-sass', '~> 2.3.2.1'
 
 end
