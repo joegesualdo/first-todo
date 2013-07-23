@@ -1,5 +1,6 @@
 class FirstTodo.Views.Task extends Backbone.View
   tagName: 'li'
+  className: 'task'
   template: JST['tasks/task']
   events:
     'click .toggleDone': 'toggleDone'

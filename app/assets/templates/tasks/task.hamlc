@@ -1,3 +1,6 @@
-%span.editable= @title
-%span.toggleDone √
-%span.deleteTask X
+.contentBox
+  .editable= @title
+    %span.deleteTask
+      %i.icon-trash
+    %span.toggleDone
+      %i.icon-ok-sign

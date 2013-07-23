@@ -1,5 +1,7 @@
-%h1 This is the tasks template
-%ul.taskList
-
+%h1 Tasks
 %input{id: "newTask", placeholder: "Enter task here.."}
 %div{id: "submitTask"} Submit
+.row
+  %ul.taskList.span7.offset3
+
+

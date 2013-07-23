@@ -1,10 +1,30 @@
-#container{
-  margin-top: 200px;
+.contentBox{
+  width: 100%;
+  overflow: inherit;
+
+}
+.editable{
+  line-height: 50px;
+  font-size: 2em;
 }
 .toggleDone{
-  color: red;
-  background-color: black;
+  float: right;
+  padding: 0 5px;
+}
+
+.deleteTask{
+  float: right;
+  padding: 0 5px;
 }
 .done{
   text-decoration: line-through;
+  font-style: italic;
+  background: red;
+}
+
+li{
+  list-style: none;
+}
+li.task{
+    border-bottom: solid;
 }

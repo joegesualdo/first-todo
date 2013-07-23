@@ -4,7 +4,7 @@ class FirstTodo.Views.Tasks extends Backbone.View
   events:
     'click #submitTask': 'createTask'
   initialize: ->
-    $('#container').append(@template())
+    $('.container-fluid').append(@template())
 
     @collection.on('remove', @render, this)
     @collection.on('add', @render, this)
