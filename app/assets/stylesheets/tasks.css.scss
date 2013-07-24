@@ -28,3 +28,34 @@ li{
 li.task{
     border-bottom: solid;
 }
+
+section.tasks{
+  padding: 20px 0 0 0;
+}
+
+.inputTask{
+  margin: 0;
+}
+
+.inputTask{
+  display: inline-block;
+  border: 1px inset #ccc;
+}
+
+.inputTask input {
+  width: 65%;
+  border: none;
+  padding: 5px;
+}
+
+.inputTask span {
+  float: right;
+  border: none;
+  background: none;
+}
+
+.inputTask{
+  i{
+    font-size: 1.5em;
+  }
+}

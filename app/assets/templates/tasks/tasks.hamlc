@@ -1,7 +1,10 @@
-%h1 Tasks
-%input{id: "newTask", placeholder: "Enter task here.."}
-%div{id: "submitTask"} Submit
-.row
-  %ul.taskList.span7.offset3
+
+.row-fluid
+  %section.inputTask.span6.offset3
+    %input{id: "newTask", placeholder: "Enter task here.."}
+    %span{id: "submitTask"}
+      %i.icon-plus-sign-alt Add Task
+%section.tasks.row-fluid
+  %ul.taskList.span6.offset3
 
 
